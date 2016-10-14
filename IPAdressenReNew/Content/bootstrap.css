@@ -954,7 +954,7 @@ pre code {
     width: 33.33333333333333%;
   }
   .col-sm-5 {
-    width: 41.66666666666667%;
+   width: 33.33333333333333%;
   }
   .col-sm-6 {
     width: 50%;
@@ -1997,6 +1997,7 @@ textarea.input-lg {
   }
 }
 
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -2052,6 +2053,28 @@ fieldset[disabled] .btn {
   color: #333333;
   background-color: #ffffff;
   border-color: #cccccc;
+}
+input[type=submit].aspNetDisabled{
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+    display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
 }
 
 .btn-default:hover,
@@ -2193,7 +2216,7 @@ fieldset[disabled] .btn-warning.active {
   background-image: none;
 }
 
-.btn-danger.disabled,
+ .btn-danger.disabled,
 .btn-danger[disabled],
 fieldset[disabled] .btn-danger,
 .btn-danger.disabled:hover,
@@ -2211,7 +2234,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #d9534f;
   border-color: #d43f3a;
 }
-
+ /*<input type="submit" name="ctl00$MainContent$Button_Kran_Löschen" value="Löschen" id="MainContent_Button_Kran_Löschen" disabled="disabled" class="aspNetDisabled">*/
 .btn-success {
   color: #ffffff;
   background-color: #5cb85c;
